@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300&display=swap');
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Outfit', 'Times New Roman', Times, serif;
+}
+
+.Background{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.Credit{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50px;
+    width: fit-content;
+    transform: translate(-50%);
+    user-select: none;
+}
+.Credit2{
+    position: absolute;
+    left: 50%;
+    top: 73px;
+    transform: translate(-50%);
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Credit2:hover{
+    font-size: 20px;
+}
+
+.BgCard{
+    background-color: hsl(215, 32%, 27%);
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 280px;
+    height: 430px;
+    border-radius: 20px;
+    transform: translate(-155px, -200px);
+}
+.Card{
+    z-index: 2;
+    background-color: hsl(216, 50%, 16%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 280px;
+    height: 430px;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+.Olho{
+    background-color: hsl(178, 100%, 50%, 30%);
+    position: absolute;
+    z-index: 2;
+    padding: 93.5px;
+    opacity: 0;
+    border-radius: 10px;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.Olho:hover{
+    opacity: 1;
+}
+.Equilibrium{
+    position: relative;
+    width: 235px;
+    border-radius: 10px;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    user-select: none;
+}
+.Title{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    left: 23px;
+    cursor: pointer;
+    width: fit-content;
+    font-weight: 600;
+}
+.Title:hover{
+    color: hsl(178, 100%, 50%);
+}
+.Description{
+    color: hsl(215, 28%, 42%);
+    position: relative;
+    top: 35px;
+    left: 50%;
+    transform: translate(-117px, 0%);
+    width: 240px;
+    font-size: 15px;
+    user-select: none;
+    font-weight: 600;
+}
+.Eth{
+    position: relative;
+    color: hsl(178, 100%, 50%);
+    font-size: 13px;
+    font-weight: 600;
+    top: 45px;
+    left: 43px;
+    user-select: none;
+}
+.EthImg{
+    position: absolute;
+    top: 344px;
+    left: 25px;
+}
+.Days{
+    position: absolute;
+    color: hsl(214, 35%, 59%);
+    font-weight: 600;
+    top: 342px;
+    left: 184px;
+    user-select: none;
+}
+.Clock{
+    position: absolute;
+    top: 344px;
+    left: 164px;
+}
+.Detalhe{
+    background-color: hsl(214, 35%, 59%);
+    position: absolute;
+    width: 235px;
+    height: 1px;
+    border-radius: 50px;
+    top: 374px;
+    left: 20px;
+}
+.Avatar{
+    position: relative;
+    width: 37px;
+    height: 37px;
+    border-radius: 100%;
+    border: 2px white solid;
+    top: 65px;
+    left: 20px;
+}
+.Description2{
+    color: hsl(215, 28%, 42%);
+    position: relative;
+    top: 30px;
+    left: 70px;
+    user-select: none;
+}
+.Name{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 155px;
+    user-select: none;
+    width: fit-content;
+}
+.Name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
